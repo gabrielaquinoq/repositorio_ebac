@@ -1,0 +1,51 @@
+
+
+table {
+
+	border: 2px solid;
+	background: #ffffff;
+	width: 98%;
+	border-collapse: collapse;
+
+}
+
+table tr {
+}
+
+table tbody tr:nth-child(even) {
+}
+
+table tbody tr:hover {
+	background-color: rgba(100, 0, 100, .4);
+}
+
+table th,
+table td {
+	padding: 1rem;
+	font-size: 1.4rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table th {
+}
+
+.table-container {
+	padding: 1rem 5rem;
+}
+
+.table-container h3 {
+}
+
+.table-container tfoot {
+	background: #E1B9ED;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}

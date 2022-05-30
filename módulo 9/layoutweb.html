@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Gabriela Aquino Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="graficos.css">
+			
+		
+	</head>
+	<body>
+
+		<header>
+			<h3 style="color: #0D0E0D"> Módulo 4 </h3>
+			<h3 style="color: #0D0E0D"> Front-End </h3>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3 style="color: #101010">Aulas</h3>
+				<ul>
+					<li><a href="01-introducao.html">Aula 01 - Introdução </a></li>
+					<li><a href="05-layouts.html">Aula 05 - Layouts</a></li>
+					<li><a href="06-formularios.html">Aula 06 - Formulários</a></li>
+				</ul>
+
+				<h3 style="color: #0D0E0D"><strong> Redes Sociais</strong> </h3>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/gabriela-aquino-a9a88b195/">LinkedIn</a></li>
+					<li><a href="https://www.instagram.com/gabrielaaqun/">@gabrielaaqun</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				<img width="200" src="https://media-exp1.licdn.com/dms/image/C4D03AQHjtOiiG_7iSw/profile-displayphoto-shrink_800_800/0/1652456020077?e=1657756800&v=beta&t=knWXM-Qvo-weVNH8tVeHi2l6wKyLaxF_jYBuMKM4U94" height="200" alt="Gabriela Queiroz">
+
+				
+				
+				<h2 style="color: #0D0E0D">Gabriela Queiroz</h2>
+
+				<h4 style="color: #0D0E0D"> 
+					<p>Estudante de Desenvolvimento Full Stack Python na <strong>EBAC</strong> e Professora de Programação na <strong> Byjus Future School Brasil </strong></p>
+				</h2>
+				<div>
+					<picture>
+						<source media="(max-width:800px)" srcset="./images/coffee-square.jpg">
+						<source media="(max-width:480px)" srcset="./images/coffee-sm.jpg">
+						<img src="./images/coffee-sm.jpg" alt="café">
+					</picture>
+				
+				</div>
+
+				<h1>
+					Elementos Gráficos
+
+					<div id="grafico-01">
+						<img src="./images/coffee-square.jpg" alt="café">
+
+					</div>
+					<div id="grafico-02">
+						
+					</div>
+
+					<div id="imagem-vetorial">
+						<img src="./images/coffee.svg" alt="café">
+
+					</div>
+
+					<div>
+						<canvas id="canvas"></canvas>
+					</div>
+
+					<script>
+						var canvas = document.getElementById("canvas");
+						var ctx = canvas.getContext("2d");
+						ctx.fillStyle = "000FF99";
+						ctx.fillRect(80,0,100,90);
+					</script>
+				</h1>
+
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p style="color: #0D0E0D">Desenvolvido por Gabriela Aquino</p>
+		</footer>
+		
+	</body>
+</html>

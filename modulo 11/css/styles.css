@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #292929; 
+    font-family: 'Brygada 1918', serif;
+}
+
+.main-container {
+    float: center;
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.primeirocontainer{
+    
+    width: 30%;
+    display: block;
+    float: center;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
+}
+
+
+.container {
+    background-color: #29292900;
+    display: block;
+    float: center;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
+    bottom: 10px;
+}
+
+.container img{
+    border-radius: 30px;
+    
+}
+header {
+    background: #292929;
+    display: block;
+    float: center;
+    padding: -10vh;
+    width: 100%;
+    border-bottom: 40px solid #254159;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #292929;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #ffffff !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #e91313;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+section {
+    background-color: #292929;
+    display: block;
+    float: left;
+    font-size: 1.5rem; /* equivalente a 15px */ 
+    padding: 20px;
+    width: 100%;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li {
+    background-color: #254159;
+    margin: 10px 20px 1px 0;
+    padding: 10px;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+nav li:hover {
+    background-color: #182f43;
+    transition: 0.3s;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #385874;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+}
+footer h5 {
+    color: #292929;
+    font-size: 1.6rem; }
+  
+                 /* cor da letra do rodape */
+  
+
+
+
+.cognito {
+    height: 350px !important;
+    overflow: hidden !important;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
